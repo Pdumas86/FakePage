@@ -1,0 +1,114 @@
+h2, h3, h4, p {
+  margin: 0;
+  padding: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  color: black;
+  background-color: white;
+  font-size: 22px;
+  text-align: center;
+}
+
+.header h1 {
+  font-family: 'Fascinate Inline', cursive;
+  font-size: 70px;
+  text-shadow: 2px 2px 5px black;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.navbar a {
+  color: black;
+  text-shadow: 2px 2px 5px black;
+  letter-spacing: 5px;
+}
+
+.mission {
+  background-image: url("./images/moy-vazquez-o4jvrDplbn4-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin-top: 50px;
+  margin-bottom: 55px;
+  width: 100%;
+  height: 150px;
+}
+
+.mission .content {
+  background-color: white;
+  margin: auto;
+  opacity: .45;
+}
+
+.company {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.companies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.company img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  padding: 10px;
+  height: auto;
+}
+
+.company img:hover {
+  box-shadow: 2px 2px 5px black;
+}
+
+.company span {
+  padding: 5px;
+  min-width: 240px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: .2rem;
+}
+
+#team-container {
+  background-image: url("./images/vincent-tint-Fyfo-Ublbu8-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+}
+
+.teammate {
+  padding: 10px;
+  flex-basis: 240px;
+  color: white;
+}
+
+.teammate img {
+  width: 200px;
+  height: auto;
+  padding: 10px;
+  margin: 5px;
+}
